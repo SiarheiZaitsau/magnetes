@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+    <title>Magnetes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./images/favicon.svg"/>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="headerContainer">
+            <div id="burgerContent" class="hamburger-menu desktopHidden">
+                <input onclick="disableBurgerScroll()" id="menu__toggle" type="checkbox" />
+                <label class="menu__btn productMenu__btn" for="menu__toggle">
+                <span></span>
+                </label>
+                <ul class="menu__box">
+                <li><a class="menu__item" href="./index-de.html">Startseite</a></li>
+                        <li><a class="menu__item" href="./products-de.html">Produkte</a></li>
+                            <div class= "burgerContactsContainer">
+                                <ul class="contactsContactList">
+                                    <li class="burgerContact">
+                                        <img class="contactIcon" src="./images/emailIcon.svg" />
+                                        <a href="mailto:info@magnetes.eu" class="contactValue burgerContactValue"> info@magnetes.eu</a>
+                                    </li>
+                                    <li class="burgerContact">
+                                        <img class="contactIcon" src="./images/phoneIcon.svg" />
+                                        <a href="tel:+48506551214" class="contactValue burgerContactValue">+48 506 551 214</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                </ul>
+            </div>
+            <p class='logo'>
+                <a href="./index-de.html">
+                    Magnetes 
+                </a>
+            </p>    
+            <nav class="navigation">
+                <ul class="navList">
+                    <li class="navItem">
+                        <a href="./index-de.html">Startseite</a>
+                    </li>
+                    <li class="navItem">
+                        <a href="./products-de.html">Produkte</a>
+                    </li>
+                    <li class="navItem">
+                        <a onclick="scrollToContact()">Kontakte</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="dropdownContainer">
+                <div id="dropdown" class="dropdown">
+                    <input class="dropdownInput" type="checkbox" id="checkbox-toggle">
+                    <label class="dropdownLabel" for="checkbox-toggle"> <img class="optionIcon" src="./images/germanFlag.svg" /> 
+                        <p class="dropdownText productDropdownText">
+                            German (change)
+                        </p>
+                    </label>
+                    <ul class="dropdownList">
+                        <li class='dropdownItem'>
+                            <a href='./grappersCA-pl.html' class="dropdownButton">
+                                <img class="optionIcon" src='./images/polishFlag.svg'>
+                                <p class="dropdownText">
+                                    Polish
+                                </p>
+                            </a>
+                        </li>
+                        <li class='dropdownItem'>
+                            <a href="./grappersCA.html" class="dropdownButton">
+                                <img class="optionIcon" src='./images/gbFlag.svg'>
+                                <p class="dropdownText">
+                                    English
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <a href= "mailto:info@magnetes.eu" class="headerContactValue">info@magnetes.eu</a>
+            </div>
+        </div>
+    </header>
+    <main class='contentWrapper'>
+        <div class="productWrapper">
+            <h3 class="productTitle">Greifermagnete Serie CA</h3>
+            <div class="productFlexContainer">
+                <img class="productImg grapperImg" src="./images/mahnitZahvatSa.png">
+                <ul class="productAdvantagesList">
+                    <li>Tragfähigkeit von 1 bis 10 Tonnen</li>
+                    <li>Automatisches Ein- und Ausschalten</li>
+                    <li>Geprüfter Tragfähigkeitsfaktor bis zu 3,5</li>
+                    <li>Keine Stromzufuhr</li>
+                    <li>Temperatur bis zu 80ºC</li>
+                    <li>Breites anwendungsspektrum</li>
+                    <li>Betriebsdauer bis zu 15 Jahren</li>
+                    <li>Kompaktheit, Zuverlässigkeit und geringes Gewicht</li>
+                </ul>
+            </div>
+            <table class="table pmmTable">
+                <thead>
+                    <tr class="fir">
+                        <th class="firsttd" colspan="2">Series CA - Modell</th>
+                        <th>СА-100</th>
+                        <th>СА-300</th>
+                        <th>СА-600</th>
+                        <th>СА-1000</th>
+                        <th>СА-1500</th>
+                        <th>СА-2000</th>
+                        <th>СА-3000</th>
+                        <th>СА-5000</th>
+                        <th>СА-10000</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="oth">
+                        <td class="firsttd" colspan="2">Nenntragfähigkeit </br> kg, </td>
+                        <td>100</td>
+                        <td>300</td>
+                        <td>600</td>
+                        <td>1000</td>
+                        <td>1500</td>
+                        <td>2000</td>
+                        <td>3000</td>
+                        <td>5000</td>
+                        <td>10000</td>
+                    </tr>
+                    <tr class="oth">
+                        <td class="firsttd" colspan="2">
+                            Zugtragfähigkeit, </br> kg
+                        </td>
+                        <td>350</td>
+                        <td>1050</td>
+                        <td>2100</td>
+                        <td>3000</td>
+                        <td>3750</td>
+                        <td>5000</td>
+                        <td>7500</td>
+                        <td>12500</td>
+                        <td>25000</td>
+                    </tr>
+                    <tr class="oth">
+                        <td rowspan="4">Größe
+                        <br>(mm)</td>
+                        <td>L</td>
+                        <td>122</td>
+                        <td>232</td>
+                        <td>275</td>
+                        <td>335</td>
+                        <td>385</td>
+                        <td>460</td>
+                        <td>565</td>
+                        <td>665</td>
+                        <td>780</td>
+                    </tr>
+                    <tr class="oth">
+                        <td>W</td>
+                        <td>62</td>
+                        <td>95</td>
+                        <td>115</td>
+                        <td>147</td>
+                        <td>147</td>
+                        <td>172</td>
+                        <td>192</td>
+                        <td>250</td>
+                        <td>520</td>
+                    </tr>
+                    <tr class="oth">
+                        <td>H</td>
+                        <td>70</td>
+                        <td>100</td>
+                        <td>115</td>
+                        <td>145</td>
+                        <td>145</td>
+                        <td>165</td>
+                        <td>185</td>
+                        <td>255</td>
+                        <td>280</td>
+                    </tr>
+                    <tr class="oth">
+                        <td>G</td>
+                        <td>140</td>
+                        <td>175</td>
+                        <td>215</td>
+                        <td>280</td>
+                        <td>280</td>
+                        <td>330</td>
+                        <td>430</td>
+                        <td>575</td>
+                        <td>750</td>
+                    </tr>
+                    <tr class="oth">
+                        <td class="firsttd" colspan="2">Gewicht (kg)</td>
+                        <td>4</td>
+                        <td>11</td>
+                        <td>20</td>
+                        <td>39</td>
+                        <td>42</td>
+                        <td>75</td>
+                        <td>117</td>
+                        <td>248</td>
+                        <td>500</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="productDescription">Die Greifer der CA-Serie sind so konstruiert, dass der Magnetkern die Arbeitsfläche des Metalls nicht berührt oder beschädigt. Darüber hinaus erreicht der Greifermagnet die größte Effizienz mit dem kleinstmöglichen Luftspalt zwischen der Lastoberfläche und dem Greifer. Der Greifermagnet der CA-Serie kann sowohl flache als auch runde Gegenstände problemlos handhaben und auch große Gegenstände bewegen.</p>
+            <iframe src="https://www.youtube.com/embed/aqGmyVBt3Ss" class="productVideo grapperVideo" frameborder="0" allowfullscreen="allowfullscreen">
+            </iframe>
+            <ul class="productImgList">
+                <li class="productImgListItem">
+                    <img alt='1234' src="./images/ca1.png" class="productImgListImg" />
+                </li>
+                <li class="productImgListItem">
+                    <img src="./images/ca2.jpg" class="productImgListImg" />
+                </li>
+                <li class="productImgListItem">
+                    <img src="./images/ca3.png" class="productImgListImg" />
+                </li>
+                <li class="productImgListItem">
+                    <img src="./images/ca4.jpg" class="productImgListImg" />
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="contacts" id="contacts">
+            <div class="contactsTextContainer">
+                <h2 class="introduceTitle">
+                    Über uns
+                </h2>
+                <p class="introduceText">
+                    Modernste Technik, beste Qualität und ein intelligentes und verantwortungsbewusstes Handeln sind die Grundlagen für die Tätigkeit unseres Unternehmens.
+                    Magnetes GmbH ist Ihr zuverlässiger Partner!
+                </p>
+            </div>
+            <div class="contactsContactsContaner">
+                <ul class="contactsContactList">
+                    <li>
+                        <p class="contactLabel">Email</p>
+                        <a href= "mailto:info@magnetes.eu" class="contactValue"> info@magnetes.eu</a>
+                    </li>
+                    <li>
+                        <p class="contactLabel">Phone</p>
+                        <a href="tel:+48506551214" class="contactValue">+48 506 551 214</a>
+                    </li>
+                    <li>
+                        <p class="contactLabel">Ein Kleid</p>
+                        <p class="contactValue adress">Trzy Lipy 2, 80-172, Gdańsk</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerNavBackground">
+            <div class="footerNav">
+                <ul class="navList mobileFooterNavList">
+                    <li class="navItem footerNavItem">
+                        <a href="./index-de.html">Startseite</a>
+                    </li>
+                    <li class="navItem footerNavItem">
+                        <a href="./products-de.html">Produkte</a>
+                    </li>
+                </ul>
+                <p>Designed by <span class="developedLink"> <a  href="http://QWERTY123.eu" target="_blank">QWERTY123.eu </a> </span> </p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./dropdownScript.js"></script>
+</html>

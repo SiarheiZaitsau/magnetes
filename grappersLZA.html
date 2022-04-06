@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+    <title>Magnetes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./images/favicon.svg"/>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="headerContainer">
+            <div id="burgerContent" class="hamburger-menu desktopHidden">
+                <input onclick="disableBurgerScroll()" id="menu__toggle" type="checkbox" />
+                <label class="menu__btn productMenu__btn" for="menu__toggle">
+                <span></span>
+                </label>
+                <ul class="menu__box">
+                <li><a class="menu__item" href="./index-en.html">Home</a></li>
+                        <li><a class="menu__item" href="./products.html">Products</a></li>
+                            <div class= "burgerContactsContainer">
+                                <ul class="contactsContactList">
+                                    <li class="burgerContact">
+                                        <img class="contactIcon" src="./images/emailIcon.svg" />
+                                        <a href="mailto:info@magnetes.eu" class="contactValue burgerContactValue"> info@magnetes.eu</a>
+                                    </li>
+                                    <li class="burgerContact">
+                                        <img class="contactIcon" src="./images/phoneIcon.svg" />
+                                        <a href="tel:+48506551214" class="contactValue burgerContactValue">+48 506 551 214</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                </ul>
+            </div>
+            <p class='logo'>
+                <a href="./index-en.html">
+                    Magnetes 
+                </a>
+            </p>    
+            <nav class="navigation">
+                <ul class="navList">
+                    <li class="navItem">
+                        <a href="./index-en.html">Home</a>
+                    </li>
+                    <li class="navItem">
+                        <a href="./products.html">Products</a>
+                    </li>
+                    <li class="navItem">
+                        <a onclick="scrollToContact()">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="dropdownContainer">
+                <div id="dropdown" class="dropdown">
+                    <input class="dropdownInput" type="checkbox" id="checkbox-toggle">
+                    <label class="dropdownLabel" for="checkbox-toggle"> <img class="optionIcon" src="./images/gbFlag.svg" /> 
+                        <p class="dropdownText productDropdownText">
+                            English (change)
+                        </p>
+                    </label>
+                    <ul class="dropdownList">
+                        <li class='dropdownItem'>
+                            <a href='./grappersLZA-pl.html' class="dropdownButton">
+                                <img class="optionIcon" src='./images/polishFlag.svg'>
+                                <p class="dropdownText">
+                                    Polish
+                                </p>
+                            </a>
+                        </li>
+                        <li class='dropdownItem'>
+                            <a href="./grappersLZA-de.html" class="dropdownButton">
+                                <img class="optionIcon" src='./images/germanFlag.svg'>
+                                <p class="dropdownText">
+                                    German
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <a href= "mailto:info@magnetes.eu" class="headerContactValue">info@magnetes.eu</a>
+            </div>
+        </div>
+    </header>
+    <main class='contentWrapper'>
+        <div class="productWrapper">
+            <h3 class="productTitle">Magnetic grabs series LZA</h3>
+            <div class="productFlexContainer">
+                <img class="productImg grapperImg" src="./images/mahnitZahvatLsa.png">
+                <ul class="productAdvantagesList">
+                    <li>Capacity from 1 to 20 tonnes</li>
+                    <li>Automatic switch-on and switch-off</li>
+                    <li>No power supply</li>
+                    <li>Operational life up to 15 years</li>
+                    <li>Temperature up to 80ºC</li>
+                    <li>Tested breaking load capacity factor up to 4</li>
+                </ul>
+            </div>
+            <table class="table pmmTable">
+                <thead>
+                    <tr class="fir">
+                        <th class="firsttd" colspan="2">Series LZA - Model</th>
+                        <th>LZA-1000</th>
+                        <th>LZA-1500</th>
+                        <th>LZA-2000</th>
+                        <th>LZA-3000</th>
+                        <th>LZA-5000</th>
+                        <th>LZA-10000</th>
+                        <th>LZA-20000</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="oth">
+                        <td class="firsttd" colspan="2">Nominal load <br> capacity kg</td>
+                        <td>1000</td>
+                        <td>1500</td>
+                        <td>2000</td>
+                        <td>3000</td>
+                        <td>5000</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                    </tr>
+                    <tr class="oth">
+                        <td class="firsttd" colspan="2">
+                            Tensile <br> load capacity, kg
+                        </td>
+                        <td>4000</td>
+                        <td>4000</td>
+                        <td>7000</td>
+                        <td>10500</td>
+                        <td>15000</td>
+                        <td>25000</td>
+                        <td>50000</td>
+                    </tr>
+                    <tr class="oth">
+                        <td rowspan="3">Size
+                            <br>(mm)</td>
+                        <td>L</td>
+                        <td>770</td>
+                        <td>845</td>
+                        <td>845</td>
+                        <td>948</td>
+                        <td>1100</td>
+                        <td>1350</td>
+                        <td>1500</td>
+                    </tr>
+                    <tr class="oth">
+                        <td>W</td>
+                        <td>410</td>
+                        <td>470</td>
+                        <td>500</td>
+                        <td>585</td>
+                        <td>610</td>
+                        <td>750</td>
+                        <td>850</td>
+                    </tr>
+                    <tr class="oth">
+                        <td>H</td>
+                        <td>415</td>
+                        <td>415</td>
+                        <td>440</td>
+                        <td>480</td>
+                        <td>580</td>
+                        <td>650</td>
+                        <td>730</td>
+                    </tr>
+                    <tr class="oth">
+                        <td colspan="2">Weight (kg)</td>
+                        <td>200</td>
+                        <td>245</td>
+                        <td>270</td>
+                        <td>380</td>
+                        <td>490</td>
+                        <td>1050</td>
+                        <td>1850</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="productDescription">The grabs are designed to meet the requirements for load capacity and curvature of the contact surface. In addition, all geometries can be easily moved with the LZA series grabs. When switched off, there is no magnetic field at all.</p>
+            <iframe src="https://www.youtube.com/embed/WQADUAeXk0s" class="productVideo grapperVideo" frameborder="0" allowfullscreen="allowfullscreen">
+            </iframe>
+            <ul class="productImgList">
+                <li class="productImgListItem">
+                    <img alt='1234' src="./images/lza1.jpg" class="productImgListImg" />
+                </li>
+                <li class="productImgListItem">
+                    <img src="./images/lza2.jpg" class="productImgListImg" />
+                </li>
+                <li class="productImgListItem">
+                    <img src="./images/lza3.jpg" class="productImgListImg" />
+                </li>
+                <li class="productImgListItem">
+                    <img src="./images/lza4.jpg" class="productImgListImg" />
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="contacts" id="contacts">
+            <div class="contactsTextContainer">
+                <h2 class="introduceTitle">
+                    Contact us
+                </h2>
+                <p class="introduceText">
+                    Advanced technology, the best quality, and an intelligent and conscientious approach to fulfilling our responsibilities are the foundations on which our company's activities are based.
+                    Magnetes LLC is your reliable partner!
+                </p>
+            </div>
+            <div class="contactsContactsContaner">
+                <ul class="contactsContactList">
+                    <li>
+                        <p class="contactLabel">Email</p>
+                        <a href= "mailto:info@magnetes.eu" class="contactValue"> info@magnetes.eu</a>
+                    </li>
+                    <li>
+                        <p class="contactLabel">Phone</p>
+                        <a href="tel:+48506551214" class="contactValue">+48 506 551 214</a>
+                    </li>
+                    <li>
+                        <p class="contactLabel">Address</p>
+                        <p class="contactValue adress">Trzy Lipy 2, 80-172, Gdańsk</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerNavBackground">
+            <div class="footerNav">
+                <ul class="navList mobileFooterNavList">
+                    <li class="navItem footerNavItem">
+                        <a href="./index-en.html">Home</a>
+                    </li>
+                    <li class="navItem footerNavItem">
+                        <a href="./products.html">Products</a>
+                    </li>
+                </ul>
+                <p>Designed by <span class="developedLink"> <a  href="http://QWERTY123.eu" target="_blank">QWERTY123.eu </a> </span> </p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./dropdownScript.js"></script>
+</html>
